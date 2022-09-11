@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./pages/assets/pic.webp)!important;
+  background-position:center!important;
+  background-repeat: repeat!important;
+  background-size: cover!important;
+  position: relative!important;
+  background-attachment: fixed!important; 
+
+}
+
+.highlighted {
+  color: #7fffd4;
+  font-weight: 800;
+  /* font-style: bold; */
+
+}
+
+.home-suggestions-list {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+
+}
+
+.home-suggestions-list ul {
+  list-style: none;
+}
+
+.home-suggestions-list ul li {
+  cursor: pointer;
+  font-variant: small-caps;
+}
+
+.home-suggestions-list ul li:hover {
+  background-image: linear-gradient(to right,
+
+      #7fffd4 50%,
+      #000 50%,
+    );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 20px 0;
+  position: relative;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: aquamarine;
+  /* -webkit-text-fill-color: aquamarine; */
+  transition: all 0.4s ease-in-out;
+  text-decoration: blink;
+  text-transform:capitalize;
+  /* font-weight */
+}
+
+.custom-form-button {
+  background-color: #212529;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-top: 0.4rem;
+}
+
+.custom-form-button:hover {
+  color: #212529;
+  background-color: white;
+  border: 1px solid #212529;
+}
+
+
+.home-pagination-display a {
+  background-color: black!important;
+  color: white!important;
+ }
+ /* !important ca sa suprascrie bootstrap ul */
+
+ .home-pagination-display a:hover {
+  background-color: white!important;
+  color: black!important;
+  /* border: 1px solid #212529; */
+ }
+/* Form.Control {
+  background-color: red;
+} */
+
+/* .d-flex{
+  background-color: transparent;
+ } */
+
+/* Form.control:not(active){
+  color:white;
+}
+ */
+/* 
+ Button {
+  background-color: red;
+
+ } */
+
+
+ /* #00000080;
+ color: #f9e1ba; */
